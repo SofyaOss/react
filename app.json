@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "fascinated-yellow-cookie",
-    "slug": "snack-1598b681-cd5a-4f17-aa82-3d7eaf00671f",
+    "name": "playful-yellow-bubblegum",
+    "slug": "snack-82f0fa4c-41e5-4abc-91ab-2f3f1aa37578",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,6 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },

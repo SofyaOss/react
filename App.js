@@ -11,6 +11,16 @@ import { NavigationContainer } from '@react-navigation/native';
 import {BottomTabNavigator} from './screens/TabNavigation'
 
 export default function App() {
+  global.orders = [];
+  global.dishList = [
+    {text: 'рыба', price: '1000'},
+    {text: 'мясо', price: '1300'},
+    {text: 'кофе', price: '300'},
+    {text: 'чай', price: '1300'},
+    {text: 'тортик', price: '1300'},
+    {text: 'пироженка', price: '1300'},
+    {text: 'суп', price: '1300'},
+  ];
   
   return (
     <SafeAreaView style={styles.container}>
